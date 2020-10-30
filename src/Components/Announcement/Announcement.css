@@ -1,0 +1,32 @@
+.carousel-caption {
+  bottom: 0px !important;
+}
+div.new_html_code {
+  width: 150px;
+  height: 100px;
+  min-width: 150px;
+  min-height: 100px;
+  max-width: 200px;
+  max-height: 100px;
+  overflow: hidden;
+  display: block;
+}
+.AnnouncementSlideCaption {
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  text-align: left !important;
+  height: 100%;
+}
+.AnnouncementSlideCaption > p {
+  font-size: small !important;
+}
+#announcement_slider,
+.AnnouncementSlideCaption,
+.announcement_slider_item,
+#announcement_slider > .carousel-inner {
+  height: 100% !important;
+  cursor: pointer;
+}

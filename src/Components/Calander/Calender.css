@@ -1,0 +1,11 @@
+.calender {
+  background-color: white;
+  margin: "10px";
+}
+.event {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.card-header {
+  font-weight: bold;
+}

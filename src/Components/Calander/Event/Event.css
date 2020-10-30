@@ -1,0 +1,56 @@
+.event_container {
+  min-height: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.event_date_section {
+  background-color: grey;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  min-height: 30px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle; */
+}
+.event_date {
+  margin: 0px;
+}
+.event_detail_section {
+  font-size: 8pt;
+  font-style: italic;
+}
+.event_detail > svg {
+  /* margin-left: 5px !important; */
+  margin-right: 5px !important;
+}
+.event_Description {
+  padding-left: 5px !important;
+}
+.fade_rule {
+  height: 1px;
+  background-color: #e6e6e6;
+  width: 66em;
+  margin: 0 auto;
+  background-image: linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
+  background-image: -o-linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
+  background-image: -moz-linear-gradient(
+    left,
+    white 2%,
+    #e6e6e6 50%,
+    white 98%
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    white 2%,
+    #e6e6e6 50%,
+    white 98%
+  );
+  background-image: -ms-linear-gradient(left, white 2%, #e6e6e6 50%, white 98%);
+}
